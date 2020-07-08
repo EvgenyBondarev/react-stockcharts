@@ -22,7 +22,7 @@ class BackgroundText extends PureComponent {
 		const { x, y, fill, opacity, stroke, strokeOpacity, fontFamily, fontSize, textAnchor } = this.props;
 		const props = { x, y, fill, opacity, stroke, strokeOpacity, fontFamily, fontSize, textAnchor };
 		return (
-			<text {...props}>this.props.children(interval)</text>
+			<div {...props}>this.props.children(interval)</div>
 		);
 	}
 }
