@@ -1,6 +1,8 @@
 
 export { default as ema } from "./ema";
+export { default as emaStub } from "./emaStub";
 export { default as sma } from "./sma";
+export { default as smaStub } from "./smaStub";
 export { default as wma } from "./wma";
 export { default as tma } from "./tma";
 export { default as bollingerBand } from "./bollingerBand";
@@ -10,6 +12,7 @@ export { default as pointAndFigure } from "./pointAndFigure";
 export { default as renko } from "./renko";
 export { default as macd } from "./macd";
 export { default as rsi } from "./rsi";
+export { default as rsiStub } from "./rsiStub";
 export { default as atr } from "./atr";
 export { default as stochasticOscillator } from "./stochasticOscillator";
 export { default as forceIndex } from "./forceIndex";
